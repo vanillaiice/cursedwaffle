@@ -1,4 +1,4 @@
-module cursedwaffle
+module github.com/vanillaiice/cursedwaffle
 
 go 1.21.5
 
