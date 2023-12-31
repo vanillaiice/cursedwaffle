@@ -2,7 +2,8 @@ run:
 	go run cmd/cursedwaffle/main.go
 
 build:
-	go build -ldflags="-s -w" cmd/cursedwaffle/main.go
+	mkdir -p bin
+	go build -ldflags="-s -w" -o bin/ cmd/cursedwaffle/main.go
 
 # Compile for Windows
 windows:
