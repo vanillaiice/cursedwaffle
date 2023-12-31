@@ -4,12 +4,12 @@
 package main
 
 import (
-	"cursedwaffle/waffles"
 	"fmt"
 	"os"
 	"time"
 
 	"github.com/inancgumus/screen"
+	"github.com/vanillaiice/cursedwaffle/waffles"
 )
 
 func readFiles(files []string) ([][]byte, error) {

@@ -1,8 +1,8 @@
 run:
-	go run .
+	go run cmd/cursedwaffle/main.go
 
 build:
-	go build -ldflags="-s -w" .
+	go build -ldflags="-s -w" cmd/cursedwaffle/main.go
 
 # Compile for Windows
 windows:
